@@ -1,0 +1,292 @@
+<!-- All statues should start with
+     a frame with a name 'base', this
+	 frame will be used for any missing
+	 frames.
+ -->
+<frame>
+  <name>base</name>
+  <x>1</x>
+  <y>127</y>
+  <width>128</width>
+  <height>128</height>
+</frame>
+<frame>
+  <name>walk0</name>
+  <x>1</x>
+  <y>127</y>
+  <height>128</height>
+  <width>128</width>
+</frame>
+<frame>
+  <name>walk1</name>
+  <left>129</left>
+  <right>255</right>
+  <top>129</top>
+  <bottom>255</bottom>
+</frame>
+<frame>
+  <name>walk2</name>
+  <left>257</left>
+  <right>383</right
+  <top>129</top>
+  <bottom>255</bottom>
+</frame>
+<frame>
+  <name>walk3</name>
+  <left>385</left>
+  <right>511</right>
+  <top>129</top>
+  <bottom>255</bottom>
+</frame>
+<frame>
+  <name>walk4</name>
+  <left>513</left>
+  <right>639</right>
+  <top>129</top>
+  <bottom>255</bottom>
+</frame>
+<frame>
+  <name>walk5</name>
+  <left>641</left>
+  <right>767</right>
+  <top>129</top>
+  <bottom>255</bottom>
+</frame>
+<frame>
+  <name>walk6</name>
+  <left>769</left>
+  <right>895</right>
+  <top>129</top>
+  <bottom>255</bottom>
+</frame>
+<frame>
+  <name>walk7</name>
+  <left>897</left>
+  <right>1023</right>
+  <top>129</top>
+  <bottom>255</bottom>
+</frame>
+<frame>
+  <name>stable0</name>
+  <left>1</left>
+  <right>127</right>
+  <top>385</top>
+  <bottom>511</bottom>
+</frame>
+<frame>
+  <name>stable1</name>
+  <left>129</left>
+  <right>255</right>
+  <top>385</top>
+  <bottom>511</bottom>
+</frame>
+<frame>
+  <name>stable2</name>
+  <left>257</left>
+  <right>383</right>
+  <top>385</top>
+  <bottom>511</bottom>
+</frame>
+<frame>
+  <name>stable3</name>
+  <left>385</left>
+  <right>511</right>
+  <top>385</top>
+  <bottom>511</bottom>
+</frame>
+<frame>
+  <name>stable4</name>
+  <left>513</left>
+  <right>639</right>
+  <top>385</top>
+  <bottom>511</bottom>
+</frame>
+<frame>
+  <name>stable5</name>
+  <left>641</left>
+  <right>767</right>
+  <top>385</top>
+  <bottom>511</bottom>
+</frame>
+<frame>
+  <name>stable6</name>
+  <left>769</left>
+  <right>895</right>
+  <top>385</top>
+  <bottom>511</bottom>
+</frame>
+<frame>
+  <name>stable7</name>
+  <left>897</left>
+  <right>1023</right>
+  <top>385</top>
+  <bottom>511</bottom>
+</frame>
+<frame>
+  <name>shaky01</name>
+  <left>65</left>
+  <right>191</right>
+  <top>641</top>
+  <bottom>767</bottom>
+</frame>
+<frame>
+  <name>shaky12</name>
+  <left>257</left>
+  <right>383</right>
+  <top>641</top>
+  <bottom>767</bottom>
+</frame>
+<frame>
+  <name>shaky23</name>
+  <left>449</left>
+  <right>575</right>
+  <top>641</top>
+  <bottom>767</bottom>
+</frame>
+<frame>
+  <name>shaky34</name>
+  <left>641</left>
+  <right>767</right>
+  <top>641</top>
+  <bottom>767</bottom>
+</frame>
+<frame>
+  <name>shaky45</name>
+  <left>833</left>
+  <right>959</right>
+  <top>641</top>
+  <bottom>767</bottom>
+</frame>
+<frame>
+  <name>shaky56</name>
+  <left>1025</left>
+  <right>1151</right>
+  <top>641</top>
+  <bottom>767</bottom>
+</frame>
+<frame>
+  <name>shaky67</name>
+  <left>1217</left>
+  <right>1343</right>
+  <top>641</top>
+  <bottom>767</bottom>
+</frame>
+<frame>
+  <name>shaky70</name>
+  <left>1409</left>
+  <right>1535</right>
+  <top>641</top>
+  <bottom>767</bottom>
+</frame>
+<frame>
+  <name>falling01</name>
+  <left>1</left>
+  <right>127</right>
+  <top>769</top>
+  <bottom>895</bottom>
+</frame>
+<frame>
+  <name>falling12</name>
+  <left>129</left>
+  <right>255</right>
+  <top>769</top>
+  <bottom>895</bottom>
+</frame>
+<frame>
+  <name>falling23</name>
+  <left>257</left>
+  <right>383</right>
+  <top>769</top>
+  <bottom>895</bottom>
+</frame>
+<frame>
+  <name>falling34</name>
+  <left>385</left>
+  <right>511</right>
+  <top>769</top>
+  <bottom>895</bottom>
+</frame>
+<frame>
+  <name>falling45</name>
+  <left>513</left>
+  <right>639</right>
+  <top>769</top>
+  <bottom>895</bottom>
+</frame>
+<frame>
+  <name>falling56</name>
+  <left>641</left>
+  <right>767</right>
+  <top>769</top>
+  <bottom>895</bottom>
+</frame>
+<frame>
+  <name>falling67</name>
+  <left>769</left>
+  <right>895</right>
+  <top>769</top>
+  <bottom>895</bottom>
+</frame>
+<frame>
+  <name>falling70</name>
+  <left>897</left>
+  <right>1023</right>
+  <top>769</top>
+  <bottom>895</bottom>
+</frame>
+<frame>
+  <name>down01</name>
+  <left>1</left>
+  <right>127</right>
+  <top>897</top>
+  <bottom>1023</bottom>
+</frame>
+<frame>
+  <name>down12</name>
+  <left>129</left>
+  <right>255</right>
+  <top>897</top>
+  <bottom>1023</bottom>
+</frame>
+<frame>
+  <name>down23</name>
+  <left>257</left>
+  <right>383</right>
+  <top>897</top>
+  <bottom>1023</bottom>
+</frame>
+<frame>
+  <name>down34</name>
+  <left>385</left>
+  <right>511</right>
+  <top>897</top>
+  <bottom>1023</bottom>
+</frame>
+<frame>
+  <name>down45</name>
+  <left>513</left>
+  <right>639</right>
+  <top>897</top>
+  <bottom>1023</bottom>
+</frame>
+<frame>
+  <name>down56</name>
+  <left>641</left>
+  <right>767</right>
+  <top>897</top>
+  <bottom>1023</bottom>
+</frame>
+<frame>
+  <name>down67</name>
+  <left>769</left>
+  <right>895</right>
+  <top>897</top>
+  <bottom>1023</bottom>
+</frame>
+<frame>
+  <name>down70</name>
+  <left>897</left>
+  <right>1023</right>
+  <top>897</top>
+  <bottom>1023</bottom>
+</frame>
